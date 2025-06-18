@@ -1,0 +1,28 @@
+#!/usr/local/bin/python3
+import sys
+sys.path.append('/home/staff/kurban/python')
+
+import csc220
+
+csc220.showForm("This is the comment on the form area.")  
+
+textarea = csc220.getInput('textarea')
+textbox = csc220.getInput('textbox')
+
+
+if textbox == "sum":
+	print(a+b+c)
+if textbox == "product":
+	print(a*b*c)
+
+print ("<h2>My username is syunalfian1 on linux </h2><br>")
+print ("textbox contains <b>{}</b> <br>".format( textbox ))
+print ("textarea contains <b>{}</b> <br>".format( textarea ))
+
+
+# I honor Parkland's core values by affirming that I have 
+# followed all academic integrity guidelines for this work.
+
+# Syafino Yunalfian
+# there is nothing below here!
+

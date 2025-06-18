@@ -1,0 +1,47 @@
+#!/usr/local/bin/python3
+import sys
+sys.path.append('/home/staff/kurban/python')
+
+import csc220
+
+csc220.showForm("This is the comment on the form area.")  
+
+textarea = csc220.getInput('textarea')
+textbox = csc220.getInput('textbox')
+
+
+if textbox == "sum":
+        print(a+b+c)
+if textbox == "product":
+        print(a*b*c)
+
+print ("<h2>My username is syunalfian1 on linux </h2><br>")
+#print ("textbox contains <b>{}</b> <br>".format( textbox ))
+#print ("textarea contains <b>{}</b> <br>".format( textarea ))
+
+print('<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">')
+
+def circle1(cx=100, cy=50, r=40, stroke="green", stroke_width=4, fill="yellow"):
+    return f'<circle cx="{cx}" cy="{cy}" r="{r}" stroke="{stroke}" stroke-width="{stroke_width}" fill="{fill}" />'
+def circle2(cx=500, cy=50, r=40, stroke="blue", stroke_width=4, fill="yellow"):
+    return f'<circle cx="{cx}" cy="{cy}" r="{r}" stroke="{stroke}" stroke-width="{stroke_width}" fill="{fill}" />'
+def rectangle(w=200, h=100, x=200, y=10, fill="blue", text_fill="white"):
+    svgstring= f'''
+    <rect width="{w}" height="{h}" x="{x}" y="{y}" rx="20" ry="20" fill="{fill}" />'
+    <text x="{x + w // 2}" y="{y + h // 2 + 7}" font-size="20" text-anchor="middle" fill="{text_fill}" font-family="Arial">Syafino</text>
+    '''
+    return svgstring
+print(circle1())
+print(rectangle())
+print(circle2())
+
+print('</svg>')
+
+
+
+# I honor Parkland's core values by affirming that I have 
+# followed all academic integrity guidelines for this work.
+
+# your name 
+# there is nothing below here!
+
