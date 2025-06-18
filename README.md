@@ -1,5 +1,5 @@
 # Data-Structures-Projects
-In class/personal projects
+Data structures, algorithms, and graph projects including trees, sorting, searching, recursion, and course milestones.
 
 Using CGI, connected to Parkland college's linux server
 
